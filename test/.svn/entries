@@ -1,0 +1,77 @@
+10
+
+dir
+53
+http://haha5.googlecode.com/svn/trunk/test
+http://haha5.googlecode.com/svn
+
+
+
+2011-10-22T06:06:41.562174Z
+52
+fandyst@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7109a8fa-5b4d-603f-e361-484aa6b11533
+
+unit
+dir
+
+test_helper.rb
+file
+
+
+
+
+2011-10-22T01:37:35.298682Z
+2b8130eb4e1a65bce16e6e0fbe90d447
+2011-10-03T11:34:46.500046Z
+2
+fandyst@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+454
+
+performance
+dir
+
+functional
+dir
+
+integration
+dir
+
+fixtures
+dir
+

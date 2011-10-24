@@ -1,0 +1,65 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Comname:</b>
+  <%= @com.comname %>
+</p>
+
+<p>
+  <b>Bossname:</b>
+  <%= @com.bossname %>
+</p>
+
+<p>
+  <b>Tel:</b>
+  <%= @com.tel %>
+</p>
+
+<p>
+  <b>Fax:</b>
+  <%= @com.fax %>
+</p>
+
+<p>
+  <b>Www:</b>
+  <%= @com.www %>
+</p>
+
+<p>
+  <b>Email:</b>
+  <%= @com.email %>
+</p>
+
+<p>
+  <b>Qq:</b>
+  <%= @com.qq %>
+</p>
+
+<p>
+  <b>Identity:</b>
+  <%= @com.identity %>
+</p>
+
+<p>
+  <b>Addr:</b>
+  <%= @com.addr %>
+</p>
+
+<p>
+  <b>User:</b>
+  <%= @com.user_id %>
+</p>
+
+<p>
+  <b>Headimg:</b>
+  <%= @com.headimg %>
+</p>
+
+<p>
+  <b>Rules:</b>
+  <%= @com.rules %>
+</p>
+
+
+<%= link_to 'Edit', edit_com_path(@com) %> |
+<%= link_to 'Back', coms_path %>

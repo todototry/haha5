@@ -1,0 +1,65 @@
+<%= form_for(@com) do |f| %>
+  <% if @com.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@com.errors.count, "error") %> prohibited this com from being saved:</h2>
+
+      <ul>
+      <% @com.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :comname,"公司名称：" %><br />
+    <%= f.text_field :comname %>
+  </div>
+  <div class="field">
+    <%= f.label :bossname,"所有者姓名：" %><br />
+    <%= f.text_field :bossname %>
+  </div>
+  <div class="field">
+    <%= f.label :tel,"电话号码：" %><br />
+    <%= f.text_field :tel %>
+  </div>
+  <div class="field">
+    <%= f.label :fax,"传真：" %><br />
+    <%= f.text_field :fax %>
+  </div>
+  <div class="field">
+    <%= f.label :www,"公司网址："%><br />
+    <%= f.text_field :www %>
+  </div>
+  <div class="field">
+    <%= f.label :email,"电子邮箱E-mail：" %><br />
+    <%= f.text_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :qq,"QQ" %><br />
+    <%= f.text_field :qq %>
+  </div>
+  <div class="field">
+    <%= f.label :identity,"身份证号：" %><br />
+    <%= f.text_field :identity %>
+  </div>
+  <div class="field">
+    <%= f.label :addr,"公司地址：" %><br />
+    <%= f.text_field :addr %>
+  </div>
+  <div class="field">
+    <%= f.label :user_id,"用户id：" %><br />
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :headimg,"猪耳号标准图：" %><br />
+    <%= f.text_field :headimg %>
+  </div>
+  <div class="field">
+    <%= f.label :rules,"猪场的遗传规则：" %><br />
+    <%= f.text_field :rules %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

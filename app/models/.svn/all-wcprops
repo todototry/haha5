@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/53/trunk/app/models
+END
+disease.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/14/trunk/app/models/disease.rb
+END
+ability.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/49/trunk/app/models/ability.rb
+END
+user.rb
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/53/trunk/app/models/user.rb
+END
+com.rb
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/14/trunk/app/models/com.rb
+END
+mating.rb
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/14/trunk/app/models/mating.rb
+END
+breed.rb
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/14/trunk/app/models/breed.rb
+END
+vaccine.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/14/trunk/app/models/vaccine.rb
+END
+piginfo.rb
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/14/trunk/app/models/piginfo.rb
+END
+diseasedesc.rb
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/14/trunk/app/models/diseasedesc.rb
+END

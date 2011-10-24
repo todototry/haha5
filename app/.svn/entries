@@ -1,0 +1,43 @@
+10
+
+dir
+53
+http://haha5.googlecode.com/svn/trunk/app
+http://haha5.googlecode.com/svn
+
+
+
+2011-10-22T12:05:15.540613Z
+53
+fandyst@gmail.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+7109a8fa-5b4d-603f-e361-484aa6b11533
+
+helpers
+dir
+
+models
+dir
+
+controllers
+dir
+
+mailers
+dir
+
+views
+dir
+

@@ -1,0 +1,173 @@
+
+	/* ----------------------------------- layout ----------------------------------- */
+html 		{ 
+		min-width: 966px;
+		background: #f9f9f9;
+		overflow:scroll;
+		overflow-x:hidden;
+
+		}
+
+body		{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		text-align: center;
+		background: #f9f9f9 url(/images/site_holder.gif) top center repeat-y;
+		font: 14px Verdana, Arial, Helvetica, sans-serif;
+		}
+
+div#wrapper	{
+		margin: 0 auto;
+		padding: 0;
+		border: 0;
+		width: 966px;
+		text-align: left;
+		background: transparent url(/images/site_wrapper.gif) top left repeat-y;
+		}
+
+div#navsecond	{
+		float: left;
+		margin: 0 0 0 6px;
+		padding: 0;
+		border: 0;
+		width: 150px;
+		background : transparent;
+		}
+
+html>body div#navsecond {
+		margin-left: 12px;
+		}
+
+div#maincontent {
+		float: left;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		width: 798px;
+		background: transparent;
+		}
+
+div#maincontent div#func_bar
+                {
+                display:block;
+                width:798px;
+                background-color:lightblue;
+                }
+div#maincontent div ul li
+                {
+                float:left;
+                display:block;
+                width:auto;
+                margin-right:10px;
+                margin-bottom:10px;
+                color:white;
+                background-color:lightblue;
+                }
+div#sidebar	{
+		float: left;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		width: 150px;
+		background: transparent;
+		}
+
+div#footer	{
+                text-align:center;
+		clear: both;
+		margin: 0;
+		padding: 0;
+		margin-left: 12px;
+		width: 937px;
+		height: 46px;
+		background: lightblue;
+		border-top: 10px solid #fff;
+		border-bottom: 10px solid #fff;
+		}
+
+div#footer p	{
+		margin: 2px 10px 0 10px;
+		font-size: 12px;
+		}
+
+
+
+/*************************** header ****************************/
+div#header	{
+		margin: 0 0 0 12px;
+		padding: 0;
+		border: 0;
+		width: 937px;
+		height: 90px;
+		}
+
+div#header div#logo{
+		float:left;
+		width:150px;
+		height:90px;
+		}
+
+div#header div#me{
+		float:right;
+		
+		text-align:right;
+		width:787px;
+		height:90px;
+		}
+div#header div#me div{
+                
+                text-align:center;
+                width:787px;
+                height:50px;
+                background:lightblue;
+}
+div#header div#me div#notice p{
+                padding:15px 0px 0px 0px; 
+                text-align:center;
+                font-size:18px;
+                color:green;
+}
+
+div#header div#me div#error p{
+                padding:15px 0px 0px 0px; 
+                text-align:center;
+                font-size:18px;
+                color:red;
+}
+div#header img,div#logo img{
+		float:left;
+		width:150px;
+		height:90px;
+		}
+
+div#header div#me  a.link {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		overflow:hidden;
+		}
+
+div#header  a:link, div#header  a:visited	{
+		margin: 0;
+		padding: 0;
+		border: 0;
+		}
+
+div#header  a:hover	{
+
+	  	
+	/*	background: transparent url(/i/site_bg.gif) 0 -215px no-repeat; */
+		}
+
+/* *******  additional *******/
+div#maincontent div{
+        	float: left;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		width: 798px;
+		background: transparent;
+		}
+
+ 

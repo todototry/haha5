@@ -1,0 +1,22 @@
+
+<h1>修改您的用户密码：</h1>
+
+
+
+<%= form_tag( { :controller =>'users', :action =>'change'}) do %>
+  <div class="field">
+    <%= label  :password,"旧密码：" %><br />
+    <%= password_field :user,:password%>
+  </div>
+  <div class="field">
+    <%= label :newpassword,"新密码：" %><br />
+    <%= password_field :user,:newpassword%>
+  </div>
+  <div class="actions">
+    <%= submit_tag "修改新密码" %>
+  </div>
+<% end %>
+
+<%= link_to '返回', "/coms" %>
+
+

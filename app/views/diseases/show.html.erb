@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Com:</b>
+  <%= @disease.com_id %>
+</p>
+
+<p>
+  <b>Piginfo:</b>
+  <%= @disease.piginfo_id %>
+</p>
+
+<p>
+  <b>Diseasedesc:</b>
+  <%= @disease.diseasedesc_id %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= @disease.time %>
+</p>
+
+<p>
+  <b>Note:</b>
+  <%= @disease.note %>
+</p>
+
+
+<%= link_to 'Edit', edit_disease_path(@disease) %> |
+<%= link_to 'Back', diseases_path %>

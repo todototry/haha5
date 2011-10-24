@@ -1,0 +1,49 @@
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+      <% @user.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :username,"用户名：" %><br />
+    <%= f.text_field :username %>
+  </div>
+  <div class="field">
+    <%= f.label :password,"密码：" %><br />
+    <%= f.password_field :password %>
+  </div>
+  <div class="field">
+    <%= f.label :password_confirmation,"确认密码：" %><br />
+    <%= f.password_field :password_confirmation %>
+  </div>
+  <div class="field">
+    <%= f.label :level,"用户等级：" %><br />
+    <%= f.select :level,User::UserTypes,:prompt=>"选择用户类型" %>. ......试用：2，    付费用户：1，    管理员：0。
+  </div>
+  <div class="field">
+    <%= f.label :ip,"ip地址：" %><br />
+    <%= f.text_field :ip ,:readonly => true%>
+  </div>
+  <div class="field">
+    <%= f.label :starttime,"开始时间：" %><br />
+    <%= f.date_select :starttime %>
+  </div>
+  <div class="field">
+    <%= f.label :deadline,"截止日期" %><br />
+    <%= f.date_select :deadline %>
+  </div>
+  <div class="field">
+    <%= f.label :state %><br />
+    <%= f.select :state,User::States,:default => User::States[0][1] %> 可用：1，  禁用：0
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

@@ -1,0 +1,45 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Com:</b>
+  <%= @mating.com_id %>
+</p>
+
+<p>
+  <b>Momid:</b>
+  <%= @mating.momid %>
+</p>
+
+<p>
+  <b>Dadid:</b>
+  <%= @mating.dadid %>
+</p>
+
+<p>
+  <b>Time:</b>
+  <%= @mating.time %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @mating.state %>
+</p>
+
+<p>
+  <b>Sum:</b>
+  <%= @mating.sum %>
+</p>
+
+<p>
+  <b>Daughternum:</b>
+  <%= @mating.daughternum %>
+</p>
+
+<p>
+  <b>Note:</b>
+  <%= @mating.note %>
+</p>
+
+
+<%= link_to 'Edit', edit_mating_path(@mating) %> |
+<%= link_to 'Back', matings_path %>

@@ -1,0 +1,36 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+# This model initially had no columns defined.  If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+one: 
+  username: "fandyst"
+  password: "password"
+  level: "0"
+  ip: "192.168.0.1"
+  starttime: "2011-10-19"
+  deadline: "2011-11-11"
+  state: "1"
+ 
+two: 
+  username: "fandyst1"
+  password: "password"
+  level: "1"
+  ip: "192.168.0.1"
+  starttime: "2011-10-19"
+  deadline: "2011-11-11"
+  state: "1"
+
+three:
+  username: "fandyst2"
+  password: "password"
+  level: "2"
+  ip: "192.168.0.1"
+  starttime: "2011-10-19"
+  deadline: "2011-11-11"
+  state: "1"
+
+
+
+

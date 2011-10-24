@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  com_id: 1
+  piginfo_id: 1
+  diseasedesc_id: 1
+  time: 2011-10-03
+  note: MyString
+
+two:
+  com_id: 1
+  piginfo_id: 1
+  diseasedesc_id: 1
+  time: 2011-10-03
+  note: MyString

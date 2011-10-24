@@ -1,0 +1,45 @@
+<h1>Listing coms</h1>
+
+<table>
+  <tr>
+    <th>Comname</th>
+    <th>Bossname</th>
+    <th>Tel</th>
+    <th>Fax</th>
+    <th>Www</th>
+    <th>Email</th>
+    <th>Qq</th>
+    <th>Identity</th>
+    <th>Addr</th>
+    <th>User</th>
+    <th>Headimg</th>
+    <th>Rules</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @coms.each do |com| %>
+  <tr>
+    <td><%= com.comname %></td>
+    <td><%= com.bossname %></td>
+    <td><%= com.tel %></td>
+    <td><%= com.fax %></td>
+    <td><%= com.www %></td>
+    <td><%= com.email %></td>
+    <td><%= com.qq %></td>
+    <td><%= com.identity %></td>
+    <td><%= com.addr %></td>
+    <td><%= com.user_id %></td>
+    <td><%= com.headimg %></td>
+    <td><%= com.rules %></td>
+    <td><%= link_to 'Show', com %></td>
+    <td><%= link_to 'Edit', edit_com_path(com) %></td>
+    <td><%= link_to 'Destroy', com, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Com', new_com_path %>

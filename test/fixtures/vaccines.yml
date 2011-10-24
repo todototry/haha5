@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  com_id: 1
+  name: MyString
+  time: 2011-10-03
+  desc: MyString
+
+two:
+  com_id: 1
+  name: MyString
+  time: 2011-10-03
+  desc: MyString

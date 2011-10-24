@@ -1,0 +1,39 @@
+<%= render 'functionbar' %>
+<p>
+  <b>Username:</b>
+  <%= @user.username %>
+</p>
+
+<p>
+  <b>Password:</b>
+  <%= @user.password %>
+</p>
+
+<p>
+  <b>Level:</b>
+  <%= @user.level %>
+</p>
+
+<p>
+  <b>Ip:</b>
+  <%= @user.ip %>
+</p>
+
+<p>
+  <b>Starttime:</b>
+  <%= @user.starttime %>
+</p>
+
+<p>
+  <b>Deadline:</b>
+  <%= @user.deadline %>
+</p>
+
+<p>
+  <b>State:</b>
+  <%= @user.state %>
+</p>
+
+
+<%= link_to 'Edit', edit_user_path(@user) %> |
+<%= link_to 'Back', users_path %>

@@ -1,0 +1,37 @@
+<%= form_for(@disease) do |f| %>
+  <% if @disease.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@disease.errors.count, "error") %> prohibited this disease from being saved:</h2>
+
+      <ul>
+      <% @disease.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :com_id %><br />
+    <%= f.text_field :com_id %>
+  </div>
+  <div class="field">
+    <%= f.label :piginfo_id %><br />
+    <%= f.text_field :piginfo_id %>
+  </div>
+  <div class="field">
+    <%= f.label :diseasedesc_id %><br />
+    <%= f.text_field :diseasedesc_id %>
+  </div>
+  <div class="field">
+    <%= f.label :time %><br />
+    <%= f.date_select :time %>
+  </div>
+  <div class="field">
+    <%= f.label :note %><br />
+    <%= f.text_field :note %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

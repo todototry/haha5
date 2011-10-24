@@ -1,0 +1,27 @@
+<h1>Listing diseasedescs</h1>
+
+<table>
+  <tr>
+    <th>Coms</th>
+    <th>Diseasename</th>
+    <th>Note</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @diseasedescs.each do |diseasedesc| %>
+  <tr>
+    <td><%= diseasedesc.coms_id %></td>
+    <td><%= diseasedesc.diseasename %></td>
+    <td><%= diseasedesc.note %></td>
+    <td><%= link_to 'Show', diseasedesc %></td>
+    <td><%= link_to 'Edit', edit_diseasedesc_path(diseasedesc) %></td>
+    <td><%= link_to 'Destroy', diseasedesc, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Diseasedesc', new_diseasedesc_path %>

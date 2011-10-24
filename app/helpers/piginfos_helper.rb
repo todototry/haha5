@@ -1,0 +1,2 @@
+module PiginfosHelper
+end

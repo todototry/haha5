@@ -1,0 +1,13 @@
+
+<div id="func_bar">
+  <ul>
+    <li>
+      <%= link_to '补充公司资料', :controller =>'coms', :action=>'create', :id=> @user%>
+    </li>
+    <li>
+      <%= link_to '修改密码', :controller =>'users', :action=>'change', :id=> @user%>
+    </li>
+  </ul>
+</div>
+      
+      

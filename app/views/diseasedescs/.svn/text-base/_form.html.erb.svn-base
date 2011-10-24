@@ -1,0 +1,29 @@
+<%= form_for(@diseasedesc) do |f| %>
+  <% if @diseasedesc.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@diseasedesc.errors.count, "error") %> prohibited this diseasedesc from being saved:</h2>
+
+      <ul>
+      <% @diseasedesc.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :com_id %><br />
+    <%= f.text_field :com_id %>
+  </div>
+  <div class="field">
+    <%= f.label :diseasename %><br />
+    <%= f.text_field :diseasename %>
+  </div>
+  <div class="field">
+    <%= f.label :note %><br />
+    <%= f.text_field :note %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

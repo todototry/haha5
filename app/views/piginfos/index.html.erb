@@ -1,0 +1,53 @@
+<h1>Listing piginfos</h1>
+
+<table>
+  <tr>
+    <th>Pigid</th>
+    <th>Breed</th>
+    <th>Earid</th>
+    <th>Sex</th>
+    <th>Birthday</th>
+    <th>Birthorder</th>
+    <th>Brothersnum</th>
+    <th>Left</th>
+    <th>Right</th>
+    <th>Weight</th>
+    <th>State</th>
+    <th>Momid</th>
+    <th>Dadid</th>
+    <th>Com</th>
+    <th>Grouporder</th>
+    <th>Mating</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @piginfos.each do |piginfo| %>
+  <tr>
+    <td><%= piginfo.pigid %></td>
+    <td><%= piginfo.breed_id %></td>
+    <td><%= piginfo.earid %></td>
+    <td><%= piginfo.sex %></td>
+    <td><%= piginfo.birthday %></td>
+    <td><%= piginfo.birthorder %></td>
+    <td><%= piginfo.brothersnum %></td>
+    <td><%= piginfo.left %></td>
+    <td><%= piginfo.right %></td>
+    <td><%= piginfo.weight %></td>
+    <td><%= piginfo.state %></td>
+    <td><%= piginfo.momid %></td>
+    <td><%= piginfo.dadid %></td>
+    <td><%= piginfo.com_id %></td>
+    <td><%= piginfo.grouporder %></td>
+    <td><%= piginfo.mating_id %></td>
+    <td><%= link_to 'Show', piginfo %></td>
+    <td><%= link_to 'Edit', edit_piginfo_path(piginfo) %></td>
+    <td><%= link_to 'Destroy', piginfo, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Piginfo', new_piginfo_path %>

@@ -1,0 +1,37 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  pigid: MyString
+  breed_id: 1
+  earid: MyString
+  sex: MyString
+  birthday: 2011-10-03
+  birthorder: 1
+  brothersnum: 1
+  left: 1
+  right: 1
+  weight: 1.5
+  state: MyString
+  momid: MyString
+  dadid: MyString
+  com_id: 1
+  grouporder: 1
+  mating_id: 1
+
+two:
+  pigid: MyString
+  breed_id: 1
+  earid: MyString
+  sex: MyString
+  birthday: 2011-10-03
+  birthorder: 1
+  brothersnum: 1
+  left: 1
+  right: 1
+  weight: 1.5
+  state: MyString
+  momid: MyString
+  dadid: MyString
+  com_id: 1
+  grouporder: 1
+  mating_id: 1

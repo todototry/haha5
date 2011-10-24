@@ -1,0 +1,49 @@
+<%= form_for(@mating) do |f| %>
+  <% if @mating.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@mating.errors.count, "error") %> prohibited this mating from being saved:</h2>
+
+      <ul>
+      <% @mating.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :com_id %><br />
+    <%= f.text_field :com_id %>
+  </div>
+  <div class="field">
+    <%= f.label :momid %><br />
+    <%= f.text_field :momid %>
+  </div>
+  <div class="field">
+    <%= f.label :dadid %><br />
+    <%= f.text_field :dadid %>
+  </div>
+  <div class="field">
+    <%= f.label :time %><br />
+    <%= f.date_select :time %>
+  </div>
+  <div class="field">
+    <%= f.label :state %><br />
+    <%= f.text_field :state %>
+  </div>
+  <div class="field">
+    <%= f.label :sum %><br />
+    <%= f.text_field :sum %>
+  </div>
+  <div class="field">
+    <%= f.label :daughternum %><br />
+    <%= f.text_field :daughternum %>
+  </div>
+  <div class="field">
+    <%= f.label :note %><br />
+    <%= f.text_field :note %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

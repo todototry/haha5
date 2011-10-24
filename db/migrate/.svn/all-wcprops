@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/18/trunk/db/migrate
+END
+20111003122442_create_breeds.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/10/trunk/db/migrate/20111003122442_create_breeds.rb
+END
+20111003121833_create_matings.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/13/trunk/db/migrate/20111003121833_create_matings.rb
+END
+20111003122113_create_vaccines.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/13/trunk/db/migrate/20111003122113_create_vaccines.rb
+END
+20111003122647_create_diseasedescs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/10/trunk/db/migrate/20111003122647_create_diseasedescs.rb
+END
+20111003122015_create_piginfos.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/13/trunk/db/migrate/20111003122015_create_piginfos.rb
+END
+20111003122102_create_coms.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/11/trunk/db/migrate/20111003122102_create_coms.rb
+END
+20111003122205_create_diseases.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/13/trunk/db/migrate/20111003122205_create_diseases.rb
+END
+20111003121602_create_users.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/18/trunk/db/migrate/20111003121602_create_users.rb
+END

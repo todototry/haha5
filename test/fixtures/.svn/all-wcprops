@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/52/trunk/test/fixtures
+END
+diseasedescs.yml
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/5/trunk/test/fixtures/diseasedescs.yml
+END
+diseases.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/52/trunk/test/fixtures/diseases.yml
+END
+users.yml
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/5/trunk/test/fixtures/users.yml
+END
+coms.yml
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/5/trunk/test/fixtures/coms.yml
+END
+matings.yml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/52/trunk/test/fixtures/matings.yml
+END
+breeds.yml
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/5/trunk/test/fixtures/breeds.yml
+END
+vaccines.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/52/trunk/test/fixtures/vaccines.yml
+END
+piginfos.yml
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/52/trunk/test/fixtures/piginfos.yml
+END

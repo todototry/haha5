@@ -1,0 +1,21 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  com_id: 1
+  momid: MyString
+  dadid: MyString
+  time: 2011-10-03
+  state: MyString
+  sum: 1
+  daughternum: 1
+  note: MyString
+
+two:
+  com_id: 1
+  momid: MyString
+  dadid: MyString
+  time: 2011-10-03
+  state: MyString
+  sum: 1
+  daughternum: 1
+  note: MyString

@@ -1,0 +1,2 @@
+module DiseasedescsHelper
+end

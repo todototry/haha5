@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Haha4pig</title>
+    <%= stylesheet_link_tag :all %>
+    <%= javascript_include_tag :defaults %>
+    <%= csrf_meta_tag %>
+  </head>
+  <body>
+
+    <div id="wrapper">
+      <div id="header" >
+
+        <div id="logo">
+          <img src="/images/logo.png" />
+        </div>
+
+        <div id="me">
+          <% if session[:user] == nil %>
+            <a href=<%= login_url%> >登录</a>
+            <a href=<%= reg_url %> >注册</a> 
+            <a href="/about">关于我们</a>
+            <a href="/howto">如何使用</a>
+          <% else %>
+            <a href="/users/<%= session[:user].id%>"><%= session[:user].username %></a> 
+            <a href="/users/about">公司信息</a>
+            <a href= <%= logout_url%> >退出</a>
+          <% end %>
+         
+         
+          <% if flash[:notice] != nil%>
+            <div id="notice" >
+              <p>提示：
+              <%= flash[:notice] %>
+              </p>
+            </div>
+          <%end%>
+          
+          <% if flash[:error] != nil%>
+            <div id="error" >
+              <p>错误：
+              <%= flash[:error] %>
+              </p>
+            </div>
+          <%end%>
+
+        </div>
+
+      </div> 
+
+        <div id="navsecond">
+
+          <% if session[:user] == nil %>
+           
+            <br />
+            <a href="/piginfos/">种猪信息</a>
+            <br />
+            <a href="/piginfos/">生了小猪</a>
+            <br />
+            <a href="/piginfos/">挂了种猪</a>
+            <br />
+            <a href="/piginfos/">新进母猪</a>
+            <br />
+            <a href="/piginfos/">新进公猪</a>
+            <br />
+            <a href="/diseases/">猪病了</a>
+            <br />
+            <a href="/matings/">配种</a>
+            <br />
+            <a href="/#config">设定信息</a>
+            <br />
+            <a href="/vaccines">设定打疫苗时间</a>
+            <br />
+            <a href="/diseasedescs">设定疾病类型</a>
+            <br />
+            <a href="/breeds">种猪品种</a>
+            <br />
+            <a href="/coms/pig_rules">遗传规则</a>
+            <br />
+            <a href="/coms/headimg">更换猪耳号图</a>
+            <br />
+             <a href="/coms/">公司信息</a>
+            <br />
+            <br />
+            <a href="/users/logout">退出</a>
+            <br />
+            <br />
+                    
+          <% else %>
+            <a href="/users/"><%= session[:user].username%>我的信息</a> 
+            <br />
+            <a href="/piginfos/">种猪信息</a>
+            <br />
+            <a href="/piginfos/">生了小猪</a>
+            <br />
+            <a href="/piginfos/">挂了种猪</a>
+            <br />
+            <a href="/piginfos/">新进母猪</a>
+            <br />
+            <a href="/piginfos/">新进公猪</a>
+            <br />
+            <a href="/diseases/">猪病了</a>
+            <br />
+            <a href="/matings/">配种</a>
+            <br />
+            <a href="/#config">设定信息</a>
+            <br />
+            <a href="/vaccines">设定打疫苗时间</a>
+            <br />
+            <a href="/diseasedescs">设定疾病类型</a>
+            <br />
+            <a href="/breeds">种猪品种</a>
+            <br />
+            <a href="/coms/pig_rules">遗传规则</a>
+            <br />
+            <a href="/coms/headimg">更换猪耳号图</a>
+            <br />
+             <a href="/coms/">公司信息</a>
+            <br />
+            <br />
+            <a href="/users/logout">退出</a>
+            <br />
+          <% end %>
+          <br />
+        </div>
+
+
+        <div id="maincontent">
+          <%= yield %>
+
+        </div>
+        
+        <div id="footer">
+          @copy牛逼哄哄工作室荣誉出品 
+          <p>商业合作，工作联系QQ:787878978 </p> 
+          <p>宣传推广：在打印页面加上 牛逼哄哄 的联系方式 </p> 
+        </div>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+<h1>登录</h1>
+
+<%= render 'login_form' %>
+
+<%= link_to '注册', reg_url %>
