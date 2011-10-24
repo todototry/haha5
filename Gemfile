@@ -8,6 +8,7 @@ gem 'rails', '3.0.10'
 gem 'sqlite3'
 gem 'mysql2'
 gem 'cancan'
+gem 'activerecord-mysql2spatial-adapter'
 # Use unicorn as the web server
 # gem 'unicorn'
 
